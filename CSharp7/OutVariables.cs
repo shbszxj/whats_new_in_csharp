@@ -4,13 +4,11 @@ using static System.Console;
 
 namespace CSharp7
 {
-    public class OutVariables : IDemo
+    public class OutVariables : Demo<OutVariables>
     {
-        public float Title => 1.1f;
+        public override float Title => 1.1f;
 
-        public string Description => "C# 7 - OutVariables";
-
-        public void Run()
+        public override void Run()
         {
             DateTime dt;
             if (DateTime.TryParse("01/01/2019", out dt))

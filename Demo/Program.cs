@@ -15,7 +15,7 @@ namespace Demo
             var objs = new List<IDemo>();
             foreach(var file in Directory.GetFiles(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "*.dll"))
             {
-                foreach (var demo in Assembly.LoadFile(file).DefinedTypes.Where(o => o.ImplementedInterfaces.Contains(typeof(IDemo))))
+                foreach (var demo in Assembly.LoadFile(file).DefinedTypes.Where(o => o.ImplementedInterfaces.Contains(typeof(IDemo)) && !o.IsAbstract))
                 {
                     objs.Add(Activator.CreateInstance(demo) as IDemo);
                 }
