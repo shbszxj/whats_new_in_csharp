@@ -50,6 +50,7 @@
     <Compile Include="Deconstruction.cs" />
     <Compile Include="ExpressionBodiedMembers.cs" />
     <Compile Include="GeneralizeAsyncReturnTypes.cs" />
+    <Compile Include="LiteralImprovement.cs" />
     <Compile Include="LocalFunction.cs" />
     <Compile Include="OutVariables.cs" />
     <Compile Include="PatternMatching.cs" />

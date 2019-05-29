@@ -10,7 +10,7 @@ namespace CSharp7
 {
     public class Tuples : Demo<Tuples>
     {
-        public override float Title => 1.3f;
+        public override int Title => 3;
 
         static Tuple<double, double> SumAndProduct(double a, double b)
         {

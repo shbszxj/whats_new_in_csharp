@@ -8,7 +8,7 @@ namespace Infrastructure
 {
     public interface IDemo
     {
-        float Title { get; }
+        int Title { get; }
         string Description { get; }
         void Run();
     }

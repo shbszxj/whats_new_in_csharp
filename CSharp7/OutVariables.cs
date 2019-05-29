@@ -6,7 +6,7 @@ namespace CSharp7
 {
     public class OutVariables : Demo<OutVariables>
     {
-        public override float Title => 1.1f;
+        public override int Title => 1;
 
         public override void Run()
         {

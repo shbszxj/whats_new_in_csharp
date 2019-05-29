@@ -11,7 +11,7 @@ namespace CSharp7
 {
     public class GeneralizeAsyncReturnTypes : Demo<GeneralizeAsyncReturnTypes>
     {
-        public override float Title => 1.9f;
+        public override int Title => 9;
 
         public override void Run()
         {

@@ -6,7 +6,7 @@ namespace CSharp7.ExpressionBodiedMembers
 {
     public class ExpressionBodiedMembers : Demo<ExpressionBodiedMembers>
     {
-        public override float Title => 1.7f;
+        public override int Title => 7;
 
         public override void Run()
         {

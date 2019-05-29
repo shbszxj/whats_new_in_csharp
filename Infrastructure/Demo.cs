@@ -8,7 +8,7 @@ namespace Infrastructure
 {
     public abstract class Demo<T> : IDemo
     {
-        public abstract float Title { get; }
+        public abstract int Title { get; }
 
         public virtual string Description => $"{typeof(T)}";
 

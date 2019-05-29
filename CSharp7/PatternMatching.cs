@@ -5,7 +5,7 @@ namespace CSharp7
 {
     public class PatternMatching : Demo<PatternMatching>
     {
-        public override float Title => 1.2f;
+        public override int Title => 2;
 
         public override void Run()
         {

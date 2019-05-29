@@ -7,7 +7,7 @@ namespace CSharp7
 {
     public class RefReturnAndLocals : Demo<RefReturnAndLocals>
     {
-        public override float Title => 1.6f;
+        public override int Title => 6;
 
         public override void Run()
         {

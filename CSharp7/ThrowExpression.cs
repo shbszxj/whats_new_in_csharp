@@ -10,7 +10,7 @@ namespace CSharp7.ThrowExpression
 {
     public class ThrowExpression : Demo<ThrowExpression>
     {
-        public override float Title => 1.8f;
+        public override int Title => 8;
 
         public override void Run()
         {

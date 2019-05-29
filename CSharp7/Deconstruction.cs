@@ -10,7 +10,7 @@ namespace CSharp7.Deconstruction
 {
     public class Deconstruction : Demo<Deconstruction>
     {
-        public override float Title => 1.4f;
+        public override int Title => 4;
 
         public override void Run()
         {

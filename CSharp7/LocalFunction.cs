@@ -6,7 +6,7 @@ namespace CSharp7.LocalFunction
 {
     public class LocalFunction : Demo<LocalFunction>
     {
-        public override float Title => 1.5f;
+        public override int Title => 5;
 
         public override void Run()
         {
