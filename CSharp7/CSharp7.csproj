@@ -48,6 +48,7 @@
     <Compile Include="PatternMatching.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RefReturnAndLocals.cs" />
+    <Compile Include="ThrowExpression.cs" />
     <Compile Include="Tuples.cs" />
   </ItemGroup>
   <ItemGroup>
