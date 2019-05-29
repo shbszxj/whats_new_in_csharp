@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Deconstruction.cs" />
     <Compile Include="OutVariables.cs" />
     <Compile Include="PatternMatching.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
