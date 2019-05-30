@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
-namespace CSharp7.Deconstruction
+namespace CSharp7
 {
     public class Deconstruction : Demo<Deconstruction>
     {
@@ -23,23 +23,22 @@ namespace CSharp7.Deconstruction
             (int z, _) = pt;
             WriteLine($"z = {z}");
         }
-    }
 
-    public class Point
-    {
-        public int X, Y;
-
-        // Deconstructions into a single element are not supported in C# 7.0.
-        public void Deconstruct(out string s)
+        class Point
         {
-            s = $"{X}-{Y}";
-        }
+            public int X, Y;
 
-        public void Deconstruct(out int x, out int y)
-        {
-            x = X;
-            y = Y;
+            // Deconstructions into a single element are not supported in C# 7.0.
+            public void Deconstruct(out string s)
+            {
+                s = $"{X}-{Y}";
+            }
+
+            public void Deconstruct(out int x, out int y)
+            {
+                x = X;
+                y = Y;
+            }
         }
     }
-
 }

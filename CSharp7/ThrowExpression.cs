@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Console;
 
-namespace CSharp7.ThrowExpression
+namespace CSharp7
 {
     public class ThrowExpression : Demo<ThrowExpression>
     {
@@ -29,20 +29,20 @@ namespace CSharp7.ThrowExpression
                 WriteLine(v);
             }
         }
-    }
 
-    public class Expression
-    {
-        public string Name { get; set; }
-
-        public Expression(string name)
+        class Expression
         {
-            Name = name ?? throw new ArgumentNullException(paramName: nameof(Name));
-        }
+            public string Name { get; set; }
 
-        public int GetValue(int n)
-        {
-            return n > 0 ? n + 1 : throw new Exception();
+            public Expression(string name)
+            {
+                Name = name ?? throw new ArgumentNullException(paramName: nameof(Name));
+            }
+
+            public int GetValue(int n)
+            {
+                return n > 0 ? n + 1 : throw new Exception();
+            }
         }
     }
 }

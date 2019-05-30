@@ -2,7 +2,7 @@
 using System;
 using static System.Console;
 
-namespace CSharp7.LocalFunction
+namespace CSharp7
 {
     public class LocalFunction : Demo<LocalFunction>
     {
@@ -13,20 +13,20 @@ namespace CSharp7.LocalFunction
             var result = EquationSolver.SolveQuadratic(1, 10, 16);
             WriteLine(result);
         }
-    }
 
-    public class EquationSolver
-    {
-        private Func<double, double, double, double> OldCalculateDiscriminant = (aa, bb, cc) => bb * bb - 4 * aa * cc;
-
-        public static Tuple<double, double> SolveQuadratic(double a, double b, double c)
+        class EquationSolver
         {
+            private Func<double, double, double, double> OldCalculateDiscriminant = (aa, bb, cc) => bb * bb - 4 * aa * cc;
 
-            var disc = CalculateDiscriminant();
-            var rootDisc = Math.Sqrt(disc);
-            return Tuple.Create((-b + rootDisc) / (2 * a), (-b - rootDisc) / (2 * a));
+            public static Tuple<double, double> SolveQuadratic(double a, double b, double c)
+            {
 
-            double CalculateDiscriminant() => b * b - 4 * a * c;
+                var disc = CalculateDiscriminant();
+                var rootDisc = Math.Sqrt(disc);
+                return Tuple.Create((-b + rootDisc) / (2 * a), (-b - rootDisc) / (2 * a));
+
+                double CalculateDiscriminant() => b * b - 4 * a * c;
+            }
         }
     }
 }

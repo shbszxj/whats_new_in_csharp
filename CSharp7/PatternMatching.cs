@@ -34,30 +34,32 @@ namespace CSharp7
                     break;
             }
         }
-    }
 
-    class Shape
-    {
-
-    }
-
-    class Rectangle : Shape
-    {
-        public int Width, Height;
-
-        public override string ToString()
+        class Shape
         {
-            return $"{nameof(Width)} : {Width}, {nameof(Height)} : {Height}";
+
+        }
+
+        class Rectangle : Shape
+        {
+            public int Width, Height;
+
+            public override string ToString()
+            {
+                return $"{nameof(Width)} : {Width}, {nameof(Height)} : {Height}";
+            }
+        }
+
+        class Circle : Shape
+        {
+            public int Diameter;
+
+            public override string ToString()
+            {
+                return $"{nameof(Diameter)} : {Diameter}";
+            }
         }
     }
 
-    class Circle : Shape
-    {
-        public int Diameter;
-
-        public override string ToString()
-        {
-            return $"{nameof(Diameter)} : {Diameter}";
-        }
-    }
+    
 }
