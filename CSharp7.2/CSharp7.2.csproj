@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LeadingUnderscoresNumericSeparators.cs" />
+    <Compile Include="NonTrailingNamedArguments.cs" />
     <Compile Include="PrivateProtected.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
