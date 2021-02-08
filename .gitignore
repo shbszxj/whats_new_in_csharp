@@ -116,3 +116,4 @@ UpgradeLog*.XML
 /.vs/DesignPattern/v16/Server/sqlite3
 /.vs/whats_new_in_csharp/v16/Server/sqlite3
 /packages
+/.vs/whats_new_in_csharp

@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp7.1", "CSharp7.1\CSha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp7.2", "CSharp7.2\CSharp7.2.csproj", "{F0C745F2-2217-4507-91E3-37CB69766981}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp8", "CSharp8\CSharp8.csproj", "{14B0BE54-DEAA-467A-A9C1-1B1D2D9F8B0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{F0C745F2-2217-4507-91E3-37CB69766981}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0C745F2-2217-4507-91E3-37CB69766981}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0C745F2-2217-4507-91E3-37CB69766981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B0BE54-DEAA-467A-A9C1-1B1D2D9F8B0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B0BE54-DEAA-467A-A9C1-1B1D2D9F8B0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B0BE54-DEAA-467A-A9C1-1B1D2D9F8B0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B0BE54-DEAA-467A-A9C1-1B1D2D9F8B0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
